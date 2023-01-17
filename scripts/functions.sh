@@ -352,7 +352,7 @@ function file_env {
 	unset "$fileVar"
 }
 
-# Credits to https://github.com/korkin25 from https://github.com/kartoza/docker-geoserver/pull/371
+# Credits to https://github.com/korkin25 from https://github.com/jponce-tz/tests-docker-geoserver/pull/371
 function set_vars() {
   if [ -z "${INSTANCE_STRING}" ];then
     if [ ! -z "${HOSTNAME}" ]; then

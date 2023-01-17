@@ -31,7 +31,7 @@ mkdir -p  "${GEOSERVER_DATA_DIR}" "${CERT_DIR}" "${FOOTPRINTS_DATA_DIR}" "${FONT
 source /scripts/functions.sh
 source /scripts/env-data.sh
 
-# Credits https://github.com/kartoza/docker-geoserver/pull/371
+# Credits https://github.com/jponce-tz/tests-docker-geoserver/pull/371
 set_vars
 export  READONLY CLUSTER_DURABILITY BROKER_URL EMBEDDED_BROKER TOGGLE_MASTER TOGGLE_SLAVE BROKER_URL
 export CLUSTER_CONFIG_DIR MONITOR_AUDIT_PATH CLUSTER_LOCKFILE INSTANCE_STRING
